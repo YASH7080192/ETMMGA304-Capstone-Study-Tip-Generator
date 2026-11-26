@@ -1,0 +1,83 @@
+Topic,Model,Output,Relevance,Readability,Usefulness,Notes
+recursion,Base,"Use the recursion keyword to define a new type of recursion.
+
+Example:
+
+class Recursion { public: Recursion(int i) { return i; } public: Recursion(int i)",,,,
+recursion,Adapted,"Use the recursion keyword to define a new recursion.
+
+Example:
+
+import recursion from ' recursion ' ; import recursion.recursion ; import recursion.recursion.concurrent ; import",,,,
+matrices,Base,"Use the matrices to create a matrix of the same size as the input.
+
+The following matrix is a matrix of the same size as the input.
+
+The following matrix is a matrix of the same size as",,,,
+matrices,Adapted,"Use the matrices to create a matrix.
+
+The following table shows the matrices that are used to create a matrix.
+
+The following table shows the matrices that are used to create a matrix.",,,,
+binary search,Base,"Use the search box to find the search term you want to search for.
+
+Study tip: Use the search box to find the search term you want to search for.
+
+Study tip: Use the search box to",,,,
+binary search,Adapted,Use the search box to find the word you want to search for.,,,,
+linked lists,Base,"Use the link below to share your research.
+
+This article was originally published on The Conversation. Read the original article.",,,,
+linked lists,Adapted,Use the links below to find the best way to find the best way to find the best way to find the best way to find the best way to find the best way to find the best way to find the best way to,,,,
+Bayes theorem,Base,"If you're not sure what Bayes theorem is, check out the Bayesian theorem.
+Bayesian theorem is a theorem that says that the probability of a given event is the probability of the event being true.
+Bay",,,,
+Bayes theorem,Adapted,Use the Bayesian method to find the best fit.,,,,
+gradient descent,Base,"Use a gradient descent algorithm to find the best way to get the best results.
+Study tip: Use a gradient descent algorithm to find the best way to get the best results.
+Study tip: Use a gradient descent algorithm",,,,
+gradient descent,Adapted,Use a gradient descent algorithm to find the best way to get the best results.,,,,
+neural networks,Base,"If you're interested in learning more about neural networks, check out the following links:
+
+http://www.sciencedirect.com/science/article/pii/S00291059010101",,,,
+neural networks,Adapted,"Use the neural network tool to create a neural network.
+
+Source: http://www.sciencedirect.com/science/article/pii/S00291059010101",,,,
+time complexity,Base,"Use the time complexity calculator to find the best time complexity for your project.
+
+Time complexity calculator: Find the best time complexity for your project.
+
+Time complexity calculator: Find the best time complexity for your project.",,,,
+time complexity,Adapted,Use a time complexity calculator to find the correct time.,,,,
+regular expressions,Base,"Use regular expressions to find the right word.
+
+This is a very simple example of a regular expression.
+
+import { ' regex ' , ' regex.h ' } from ' regex ' ; import { ' regex",,,,
+regular expressions,Adapted,"Use regular expressions to find the right one.
+
+This is a very simple and easy way to find the right expression.
+
+The first step is to find the expression in the list.
+
+The second step is",,,,
+REST APIs,Base,"Use the REST API to create a REST API.
+
+Study tip: Use the REST API to create a REST API. Study tip: Use the REST API to create a REST API. Study tip: Use the REST API",,,,
+REST APIs,Adapted,"Use the REST API to create a REST endpoint.
+
+Study tip: Use the REST API to create a REST endpoint. Study tip: Use the REST API to create a REST endpoint. Study tip: Use the REST API",,,,
+Git branching,Base,"Use the Git branching tool to create a new branch.
+Study tip: Use the Git branching tool to create a new branch. Study tip: Use the Git branching tool to create a new branch. Study tip: Use the",,,,
+Git branching,Adapted,"Use the Git branching tool to create a new branch.
+Study tip: Use the Git branching tool to create a new branch.",,,,
+SQL indexing,Base,"Use the SQL indexing tool to create a SQL table.
+
+Study tip: Use the SQL indexing tool to create a SQL table. Study tip: Use the SQL indexing tool to create a SQL table. Study",,,,
+SQL indexing,Adapted,"Use the table name and the table name in the table name.
+
+Example:
+
+SELECT * FROM table WHERE name = 'John Doe'
+
+from table.insert(name, 'John Doe')",,,,

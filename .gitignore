@@ -1,0 +1,21 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Datasets (auto-downloaded by torchvision)
+**/data/
+
+# Large model checkpoints & weights (keep PNG plots & CSV evaluation outputs!)
+*.pt
+*.pth
+*.bin
+*.safetensors
+**/lab_outputs/study_tip_gpt2/
+
+# OS files
+.DS_Store
+Thumbs.db

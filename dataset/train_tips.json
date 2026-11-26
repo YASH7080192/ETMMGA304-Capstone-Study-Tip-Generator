@@ -1,0 +1,102 @@
+[
+  {
+    "topic": "graphs",
+    "tip": "Sketch a graph, then mark a path through three vertices."
+  },
+  {
+    "topic": "Python loops",
+    "tip": "Trace a loop by writing the counter after each step."
+  },
+  {
+    "topic": "fractions",
+    "tip": "Draw equal parts and label the fraction you shaded."
+  },
+  {
+    "topic": "sets",
+    "tip": "Draw a Venn diagram and label the intersection."
+  },
+  {
+    "topic": "sorting",
+    "tip": "Sort five values by hand and record each swap."
+  },
+  {
+    "topic": "probability",
+    "tip": "List the outcomes of two coin tosses before counting."
+  },
+  {
+    "topic": "stacks",
+    "tip": "Draw a vertical box and trace push and pop operations from the top."
+  },
+  {
+    "topic": "queues",
+    "tip": "Write a line of four items and mark front removal and rear insertion."
+  },
+  {
+    "topic": "hashing",
+    "tip": "Compute modulo indices for five keys and note any collisions."
+  },
+  {
+    "topic": "SQL joins",
+    "tip": "Write two tiny three-row tables and match rows by shared IDs."
+  },
+  {
+    "topic": "object oriented programming",
+    "tip": "List one real-world object with three attributes and two methods."
+  },
+  {
+    "topic": "database normalization",
+    "tip": "Split a repeated table column into a separate table with a primary key."
+  },
+  {
+    "topic": "dynamic programming",
+    "tip": "Fill a small 1D table for base cases before writing the recurrence."
+  },
+  {
+    "topic": "trees",
+    "tip": "Draw a root with two levels of children and trace an inorder traversal."
+  },
+  {
+    "topic": "heaps",
+    "tip": "Insert four numbers into a min-heap diagram and bubble up after each step."
+  },
+  {
+    "topic": "HTTP methods",
+    "tip": "Pair GET, POST, PUT, and DELETE with one concrete CRUD action each."
+  },
+  {
+    "topic": "linear regression",
+    "tip": "Plot five data points and sketch the line minimizing vertical errors."
+  },
+  {
+    "topic": "confusion matrix",
+    "tip": "Label TP, FP, FN, and TN in a 2x2 grid before computing precision."
+  },
+  {
+    "topic": "overfitting",
+    "tip": "Compare training and validation error curves to spot where they diverge."
+  },
+  {
+    "topic": "regularization",
+    "tip": "Note how adding an L2 penalty shrinks large weights to simplify a model."
+  },
+  {
+    "topic": "CSS flexbox",
+    "tip": "Draw a container box and mark the main axis and cross axis directions."
+  },
+  {
+    "topic": "JavaScript promises",
+    "tip": "Trace pending, fulfilled, and rejected states using one fetch example."
+  },
+  {
+    "topic": "Docker containers",
+    "tip": "Write a three-line Dockerfile and list what each layer adds to the image."
+  },
+  {
+    "topic": "Linux permissions",
+    "tip": "Convert rwxr-xr-- into three octal digits by adding 4, 2, and 1 per group."
+  },
+  {
+    "topic": "backpropagation",
+    "tip": "Apply the chain rule on a two-node computation graph using simple numbers."
+  }
+]

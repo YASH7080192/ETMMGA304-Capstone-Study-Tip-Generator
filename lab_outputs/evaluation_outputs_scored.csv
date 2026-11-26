@@ -1,0 +1,83 @@
+Topic,Model,Output,Relevance,Readability,Usefulness,Notes,Total
+recursion,Base,"Use the recursion keyword to define a new type of recursion.
+
+Example:
+
+class Recursion { public: Recursion(int i) { return i; } public: Recursion(int i)",1,1,0,Hallucinates 'recursion keyword' and truncated invalid C++ code.,2
+recursion,Adapted,"Use the recursion keyword to define a new recursion.
+
+Example:
+
+import recursion from ' recursion ' ; import recursion.recursion ; import recursion.recursion.concurrent ; import",1,0,0,Hallucinates 'recursion keyword' and falls into nonsensical import loop.,1
+matrices,Base,"Use the matrices to create a matrix of the same size as the input.
+
+The following matrix is a matrix of the same size as the input.
+
+The following matrix is a matrix of the same size as",1,0,0,Circular phrasing repeated 3x and truncated mid-sentence.,1
+matrices,Adapted,"Use the matrices to create a matrix.
+
+The following table shows the matrices that are used to create a matrix.
+
+The following table shows the matrices that are used to create a matrix.",1,1,0,"Still circular ('create a matrix'), repeats second sentence once but stops cleanly.",2
+binary search,Base,"Use the search box to find the search term you want to search for.
+
+Study tip: Use the search box to find the search term you want to search for.
+
+Study tip: Use the search box to",0,0,0,Confuses binary search with a UI search box; repeats 3x and truncates.,0
+binary search,Adapted,Use the search box to find the word you want to search for.,0,2,0,"Still confuses binary search with a search box, but stops cleanly after 1 sentence.",2
+linked lists,Base,"Use the link below to share your research.
+
+This article was originally published on The Conversation. Read the original article.",0,1,0,Confuses linked lists with web hyperlink; emits news boilerplate.,1
+linked lists,Adapted,Use the links below to find the best way to find the best way to find the best way to find the best way to find the best way to find the best way to find the best way to find the best way to,0,0,0,Failure case: confuses with web links and collapses into severe 'find the best way' loop.,0
+Bayes theorem,Base,"If you're not sure what Bayes theorem is, check out the Bayesian theorem.
+Bayesian theorem is a theorem that says that the probability of a given event is the probability of the event being true.
+Bay",1,0,0,Circular probability definition; truncates mid-word ('Bay').,1
+Bayes theorem,Adapted,Use the Bayesian method to find the best fit.,1,2,0,"Vague tip, but concise single grammatical sentence with clean EOS stop.",3
+gradient descent,Base,"Use a gradient descent algorithm to find the best way to get the best results.
+Study tip: Use a gradient descent algorithm to find the best way to get the best results.
+Study tip: Use a gradient descent algorithm",1,0,0,Generic/tautological; repeats 3x and truncates.,1
+gradient descent,Adapted,Use a gradient descent algorithm to find the best way to get the best results.,1,2,0,"Same generic wording, but eliminates repetition loop and stops cleanly.",3
+neural networks,Base,"If you're interested in learning more about neural networks, check out the following links:
+
+http://www.sciencedirect.com/science/article/pii/S00291059010101",1,1,0,No actual tip; outputs truncated/hallucinated ScienceDirect URL.,2
+neural networks,Adapted,"Use the neural network tool to create a neural network.
+
+Source: http://www.sciencedirect.com/science/article/pii/S00291059010101",1,1,0,"Shifts to imperative style ('Use the neural network tool...'), still appends dead URL.",2
+time complexity,Base,"Use the time complexity calculator to find the best time complexity for your project.
+
+Time complexity calculator: Find the best time complexity for your project.
+
+Time complexity calculator: Find the best time complexity for your project.",1,0,0,Invents 'time complexity calculator'; repeats 3x.,1
+time complexity,Adapted,Use a time complexity calculator to find the correct time.,1,2,0,"Clean 1-sentence stop, but misses Big-O asymptotic concept.",3
+regular expressions,Base,"Use regular expressions to find the right word.
+
+This is a very simple example of a regular expression.
+
+import { ' regex ' , ' regex.h ' } from ' regex ' ; import { ' regex",1,0,0,Breaks into invalid JS/C import syntax and truncates.,1
+regular expressions,Adapted,"Use regular expressions to find the right one.
+
+This is a very simple and easy way to find the right expression.
+
+The first step is to find the expression in the list.
+
+The second step is",1,1,0,"Avoids broken code syntax, stays in plain English, though vague and cuts off.",2
+REST APIs,Base,"Use the REST API to create a REST API.
+
+Study tip: Use the REST API to create a REST API. Study tip: Use the REST API to create a REST API. Study tip: Use the REST API",1,0,0,Tautological ('create a REST API'); repeats 4x and truncates.,1
+REST APIs,Adapted,"Use the REST API to create a REST endpoint.
+
+Study tip: Use the REST API to create a REST endpoint. Study tip: Use the REST API to create a REST endpoint. Study tip: Use the REST API",1,0,0,"Slightly more specific ('REST endpoint'), but still repeats 4x and truncates.",1
+Git branching,Base,"Use the Git branching tool to create a new branch.
+Study tip: Use the Git branching tool to create a new branch. Study tip: Use the Git branching tool to create a new branch. Study tip: Use the",2,0,1,"On-topic basic action, but repeats 4x and truncates.",3
+Git branching,Adapted,"Use the Git branching tool to create a new branch.
+Study tip: Use the Git branching tool to create a new branch.",2,1,1,On-topic basic action; repeats once instead of 4x and stops cleanly.,4
+SQL indexing,Base,"Use the SQL indexing tool to create a SQL table.
+
+Study tip: Use the SQL indexing tool to create a SQL table. Study tip: Use the SQL indexing tool to create a SQL table. Study",1,0,0,Conflates indexing with table creation; repeats 4x and truncates.,1
+SQL indexing,Adapted,"Use the table name and the table name in the table name.
+
+Example:
+
+SELECT * FROM table WHERE name = 'John Doe'
+
+from table.insert(name, 'John Doe')",1,0,0,Failure case: nonsensical opening ('table name in the table name') + broken SQL/Python mix.,1
